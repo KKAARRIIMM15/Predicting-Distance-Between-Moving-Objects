@@ -6,7 +6,7 @@ This project implements **object tracking using YOLOv12** and visualizes movemen
 ## Features
 ✅ **Real-time object detection** using YOLOv12.  
 ✅ **Object tracking** with bounding boxes and movement paths.  
-✅ **Weighted graph representation** for object movement.  
+✅ **Weighted graph representation** for object movement and distance calculation between tracked object.  
 ✅ **Custom adjacency list graph** (no external libraries like `networkx`).  
 ✅ **Graph visualization with pixel distance annotations**.
 
