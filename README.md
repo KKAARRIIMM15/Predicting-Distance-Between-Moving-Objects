@@ -10,35 +10,14 @@ This project implements **object tracking using YOLOv12** and visualizes movemen
 ✅ **Custom adjacency list graph** (no external libraries like `networkx`).  
 ✅ **Graph visualization with pixel distance annotations**.
 
-## Installation
-### Prerequisites
-Ensure you have Python installed and set up a virtual environment.
-
-### Install Dependencies
-```bash
-pip install ultralytics opencv-python numpy
-```
-
-## Usage
-### Run the Tracking Script
-```bash
-python object_tracking.py
-```
-
-### Modify Paths Before Running
-Edit the script to point to your video and model files:
-```python
-video_path = "D:\\T8\\pythn\\dataset\\Vehicle Dataset Sample 3.mp4"
-yolo_model_path = "D:\\T8\\pythn\\dataset\\yolo12n.pt"
-```
-
 ## How It Works
-1. **Loads YOLO model** and processes video frames.
-2. **Detects objects**, extracts bounding boxes, and calculates center points.
-3. **Tracks movement** by linking centers across frames.
-4. **Builds a weighted graph**, storing distances between tracked points.
-5. **Draws tracking lines**, annotating edges with pixel distances.
-6. **Saves the processed video** with bounding boxes and movement paths.
+1. **Create YOLOv12 model using PyTorch** and processes video frames.
+2. **Loads YOLOv12 model** and processes video frames.
+3. **Detects objects**, extracts bounding boxes, and calculates center points.
+4. **Tracks movement** by linking centers across frames.
+5. **Builds a weighted graph**, storing distances between tracked points.
+6. **Draws tracking lines**, annotating edges with pixel distances.
+7. **Saves the processed video** with bounding boxes and movement paths.
 
 ## Graph Representation
 - **Nodes** → Object positions.
