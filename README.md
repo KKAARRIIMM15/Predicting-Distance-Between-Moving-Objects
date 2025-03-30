@@ -4,7 +4,7 @@
  This project shows how to use Pytorch to implement **object tracking using YOLOv12** to visualize movement and calculate distances among all tracked objects with **weighted graph data structure.** The weighted graph dynamically connects detected objects between frames, assigning edge weights based on Euclidean distance (pixel movement).
 
 ## Why Use a Weighted Graph Data Structure?
-A **weighted graph** is used in this project because:
+   **weighted graph** is used in this project because:
 - It **effectively models object movement**, where nodes represent object positions and edges represent distances among them.
 - **Edge weights store movement distance**, enabling advanced tracking insights.
 - It allows for potential **graph-based algorithms** like shortest path analysis (Dijkstra’s algorithm) and movement prediction.
