@@ -11,7 +11,7 @@
 ✅ **Graph visualization with pixel distance annotations**.
 
 ## How It Works
-1. **Create YOLOv12 model using PyTorch** and processes video frames.
+1. **Create YOLOv12 model using PyTorch**
 2. **Loads YOLOv12 model** and processes video frames.
 3. **Detects objects**, extracts bounding boxes, and calculates center points.
 4. **Tracks movement** by linking centers across frames.
@@ -75,4 +75,11 @@ https://github.com/user-attachments/assets/cd0977cb-af1b-4572-b4cc-c93556064892
 
 
 
+
+## Why Use a Weighted Graph Data Structure?
+A **weighted graph** is used in this project because:
+- It **effectively models object movement**, where nodes represent object positions and edges represent distances among them.
+- **Edge weights store movement distance**, enabling advanced tracking insights.
+- It allows for potential **graph-based algorithms** like shortest path analysis (Dijkstra’s algorithm) and movement prediction.
+- **Scalability:** Can be extended for multiple-object tracking (MOT) with real-time updates.
 
