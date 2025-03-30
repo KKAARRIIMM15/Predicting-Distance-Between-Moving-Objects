@@ -3,11 +3,18 @@
 ## Overview
  This project shows how to use Pytorch to implement **object tracking using YOLOv12** to visualize movement and calculate distances among all tracked objects with **weighted graph data structure.** The weighted graph dynamically connects detected objects between frames, assigning edge weights based on Euclidean distance (pixel movement).
 
+## Why Use a Weighted Graph Data Structure?
+A **weighted graph** is used in this project because:
+- It **effectively models object movement**, where nodes represent object positions and edges represent distances among them.
+- **Edge weights store movement distance**, enabling advanced tracking insights.
+- It allows for potential **graph-based algorithms** like shortest path analysis (Dijkstra’s algorithm) and movement prediction.
+- **Scalability:** Can be extended for multiple-object tracking (MOT) with real-time updates.
+
+
 ## Features
 ✅ **Real-time object detection** using YOLOv12.  
 ✅ **Object tracking** with bounding boxes and movement paths.  
-✅ **Weighted graph representation** for object movement and distance calculation between tracked objects.  
-✅ **Custom adjacency list graph** (no external libraries like `networkx`).  
+✅ **Weighted graph representation** for object movement and distance calculation between tracked objects.   
 ✅ **Graph visualization with pixel distance annotations**.
 
 ## How It Works
@@ -74,12 +81,4 @@ https://github.com/user-attachments/assets/e76a4ae8-527b-44cc-a0d2-3d670d4644c1
 https://github.com/user-attachments/assets/cd0977cb-af1b-4572-b4cc-c93556064892
 
 
-
-
-## Why Use a Weighted Graph Data Structure?
-A **weighted graph** is used in this project because:
-- It **effectively models object movement**, where nodes represent object positions and edges represent distances among them.
-- **Edge weights store movement distance**, enabling advanced tracking insights.
-- It allows for potential **graph-based algorithms** like shortest path analysis (Dijkstra’s algorithm) and movement prediction.
-- **Scalability:** Can be extended for multiple-object tracking (MOT) with real-time updates.
 
