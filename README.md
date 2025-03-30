@@ -1,7 +1,9 @@
-# Object Tracking with Weighted Graph
+# Object Tracking with Weighted Graph Data Structure
 
 ## Overview
 This project implements **object tracking using YOLOv12** and visualizes movement with a **weighted graph**. The graph dynamically connects detected objects between frames, assigning **edge weights based on Euclidean distance** (pixel movement).
+
+ This project shows how to use Pytorch to implement **object tracking using YOLOv12** to visualize movement and calculate distances among all tracked objects with **weighted graph data structure.** The weighted graph dynamically connects detected objects between frames, assigning edge weights based on Euclidean distance (pixel movement).
 
 ## Features
 ✅ **Real-time object detection** using YOLOv12.  
