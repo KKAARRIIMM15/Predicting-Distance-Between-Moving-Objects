@@ -27,7 +27,8 @@ This project implements **object tracking using YOLOv12** and visualizes movemen
 Example graph representation in Python:
 ```python
 # Adjacency list structure
-graph = { # Node 1 connects to 2 and 3 and 4 → with weights 50 and 80 and 70
+graph = {
+      # Node 1 connects to 2 and 3 and 4 → with weights 50 and 80 and 70
     1: [(2, 50), (3, 80), (4, 70), ...etc],  
     2: [(1, 50), (4, 60), ...etc],
     3: [(1, 80), ...etc],
