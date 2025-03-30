@@ -49,6 +49,14 @@ graph = {
 
 # Output
 
+
+https://github.com/user-attachments/assets/dc4fbb12-bd89-4ecd-a031-f18fbfc9a498
+
+
+https://github.com/user-attachments/assets/eaa6e06b-529e-4f39-82f0-9aecb68fb74d
+
+
+
 https://github.com/user-attachments/assets/56799321-93ff-43b0-bce8-fe68ec9591b9
 
 
