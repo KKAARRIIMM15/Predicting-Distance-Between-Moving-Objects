@@ -28,10 +28,10 @@ Example graph representation in Python:
 ```python
 # Adjacency list structure
 graph = {
-    1: [(2, 5), (3, 8)],  # Node 1 connects to 2 and 3 with weights 5 and 8
-    2: [(1, 5), (4, 6)],
-    3: [(1, 8)],
-    4: [(2, 6)]
+    1: [(2, 50), (3, 80), (4, 70), ...etc],  # Node 1 connects to 2 and 3 and 4 → with weights 50 and 80 and 70
+    2: [(1, 50), (4, 60), ...etc],
+    3: [(1, 80), ...etc],
+    4: [(2, 60), ...etc]
 }
 ```
 
