@@ -1,4 +1,4 @@
-# Object Tracking with Weighted Graph Data Structure
+## Object Tracking with Weighted Graph Data Structure
 
 ## Overview
  This project shows how to use Pytorch to implement **object tracking using YOLOv12** to visualize movement and calculate distances among all tracked objects with **weighted graph data structure.** The weighted graph dynamically connects detected objects between frames, assigning edge weights based on Euclidean distance (pixel movement).
@@ -26,6 +26,33 @@
 6. **Draws tracking lines**, annotating edges with pixel distances.
 7. **Saves the processed video** with bounding boxes and movement paths.
 
+# Real Output
+https://github.com/user-attachments/assets/dc4fbb12-bd89-4ecd-a031-f18fbfc9a498
+
+
+https://github.com/user-attachments/assets/eaa6e06b-529e-4f39-82f0-9aecb68fb74d
+
+
+https://github.com/user-attachments/assets/56799321-93ff-43b0-bce8-fe68ec9591b9
+
+
+https://github.com/user-attachments/assets/e76a4ae8-527b-44cc-a0d2-3d670d4644c1
+
+
+https://github.com/user-attachments/assets/cd0977cb-af1b-4572-b4cc-c93556064892
+
+
+
+
+
+
+## Output Description
+🔹 Bounding boxes drawn on detected objects.  
+🔹 Red tracking lines connecting object positions.  
+🔹 Pixel movement distance displayed above each tracking line.  
+
+
+
 ## Graph Representation
 - **Nodes** → Object positions.
 - **Edges** → Movement between consecutive frames.
@@ -44,41 +71,10 @@ graph = {
 }
 ```
 
-## Output Example
-🔹 Bounding boxes drawn on detected objects.  
-🔹 Red tracking lines connecting object positions.  
-🔹 Pixel movement distance displayed above each tracking line.  
 
 ## Future Improvements
 🔹 Implement **Dijkstra’s shortest path** for movement analysis.  
 🔹 Add **object re-identification (Re-ID)** for lost objects.  
 🔹 Extend support for **multiple object tracking (MOT)**.  
-
-# Output
-
-
-https://github.com/user-attachments/assets/dc4fbb12-bd89-4ecd-a031-f18fbfc9a498
-
-
-https://github.com/user-attachments/assets/eaa6e06b-529e-4f39-82f0-9aecb68fb74d
-
-
-
-https://github.com/user-attachments/assets/56799321-93ff-43b0-bce8-fe68ec9591b9
-
-
-
-
-
-
-https://github.com/user-attachments/assets/e76a4ae8-527b-44cc-a0d2-3d670d4644c1
-
-
-
-
-
-
-https://github.com/user-attachments/assets/cd0977cb-af1b-4572-b4cc-c93556064892
-
 
 
