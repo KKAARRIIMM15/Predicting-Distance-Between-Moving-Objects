@@ -18,7 +18,7 @@
 ✅ **Graph visualization with pixel distance annotations**.
 
 ## How It Works
-1. **Create YOLOv12 model using PyTorch**
+1. **Create YOLOv12 model using PyTorch** implements (You Only Look Once) algorithm version 12 using PyTorch
 2. **Loads YOLOv12 model** and processes video frames.
 3. **Detects objects**, extracts bounding boxes, and calculates center points.
 4. **Tracks movement** by linking centers across frames.
